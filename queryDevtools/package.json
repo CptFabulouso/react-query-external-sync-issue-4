@@ -1,0 +1,22 @@
+{
+  "name": "query-devtools",
+  "scripts": {
+    "start": "concurrently -n browser,server \"vite --open --config config.ts \" \"tsx main.tsx\""
+  },
+  "type": "module",
+  "dependencies": {
+    "@tanstack/react-query": "5.20.5",
+    "@vitejs/plugin-react": "4.2.1",
+    "concurrently": "8.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-query-external-dash": "1.0.0",
+    "socket.io": "4.7.4",
+    "socket.io-client": "4.7.4",
+    "tsx": "4.7.1",
+    "vite": "5.1.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.3.0"
+  }
+}
